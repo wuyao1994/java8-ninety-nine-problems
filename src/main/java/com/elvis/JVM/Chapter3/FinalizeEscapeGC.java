@@ -3,7 +3,7 @@ package com.elvis.JVM.Chapter3;
 public class FinalizeEscapeGC {
     public static FinalizeEscapeGC SAVE_HOOK = null;
     public void isAlive() {
-        System.out.println("yes, ian still alive :)");
+        System.out.println("yes, i am still alive :)");
     }
     
     @Override
@@ -23,7 +23,7 @@ public class FinalizeEscapeGC {
         if (SAVE_HOOK != null) {
             SAVE_HOOK.isAlive();
         } else {
-            System.out.println("no, i ma dead :(");
+            System.out.println("no, i am dead :(");
         }
         
         SAVE_HOOK = null;
@@ -32,7 +32,7 @@ public class FinalizeEscapeGC {
         if (SAVE_HOOK != null) {
             SAVE_HOOK.isAlive();
         } else {
-            System.out.println("no, i ma dead :(");
+            System.out.println("no, i am dead :(");
         }
     }
 }
