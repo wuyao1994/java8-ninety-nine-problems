@@ -3,7 +3,7 @@ package com.elvis.JVM.Chapter3;
 public class FinalizeEscapeGC {
     public static FinalizeEscapeGC SAVE_HOOK = null;
     public void isAlive() {
-        System.out.println("yes, i am still alive :)");
+        System.out.println("yes, I am still alive :)");
     }
     
     @Override
