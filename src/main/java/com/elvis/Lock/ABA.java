@@ -1,8 +1,5 @@
 package com.elvis.Lock;
 
-import java.util.HashMap;
-import java.util.concurrent.TimeUnit;
-import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicStampedReference;
 
 public class ABA {
